@@ -341,7 +341,7 @@ public class App {
         }
         solrQuery.setRows(0);
 
-        solrQuery.addSort(config.getUniqueKey(), ORDER.asc); // Pay attention to this line
+        solrQuery.addSort(config.getUniqueKey(), ORDER.desc); // Pay attention to this line
 
         String cursorMark = CursorMarkParams.CURSOR_MARK_START;
 
